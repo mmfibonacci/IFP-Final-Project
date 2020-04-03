@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes>
+<vType sigma="0.5" maxSpeed="50.0" minGap="2.5" length="5.0" id="CarA" decel="6.0" accel="3.0"/>
+<route id="route01" edges="L5 L8"/>
+<vehicle id="veh1" type="CarA" route="route01" depart="0"/>
+<vehicle id="veh2" type="CarA" route="route01" depart="1"/>
+<vehicle id="veh3" type="CarA" route="route01" depart="1"/>
+<vehicle id="veh4" type="CarA" route="route01" depart="4"/>
+</routes>
